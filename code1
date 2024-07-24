@@ -1,4 +1,5 @@
 //Largest element in an array//
+//GFG//
 
 class Solution {
     public static int largest(int n, int[] arr) {
