@@ -1,0 +1,19 @@
+//Count Digits//
+//GFG//
+
+class Solution{
+    static int evenlyDivides(int N){
+        // code here
+        int count = 0;
+        int nums = N;
+        
+        while(nums>0){
+            int ld = nums%10;
+            if(ld!=0 && N%ld==0)
+                count++;
+            
+            nums=nums/10;
+        }
+        return count;
+    }
+}
