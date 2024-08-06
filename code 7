@@ -1,0 +1,21 @@
+//Palindrome Number//
+//Leetcode 9.//
+class Solution {
+    public boolean isPalindrome(int x) {
+        int revnum = 0;
+        int dup=x;
+
+        while(x>0){
+            int lastdigit = x%10;
+            x = x/10;
+            revnum = (revnum*10) + lastdigit;
+         }
+         if(revnum==dup){
+            return true;
+         }
+         else{
+            return false;
+         }
+         
+    }
+}
