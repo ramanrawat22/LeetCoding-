@@ -1,3 +1,6 @@
+//Sum of all divisors from 1 to N//
+//GFG//
+
 class Solution{
     static long sumOfDivisors(int N){
         // code here
